@@ -25,11 +25,7 @@ func NewHttpClient(host, encoding string, maxEncoders int) (*HttpClient, error) 
 // Send the event using an http call
 func (h *HttpClient) Send(e *event.Event) error {
 	// encode the event
-	var buff []byte
-	var err error
-	h.encoder.Encode(func(enc event.Encoder) {
-		buff, err = enc.Encode(e)
-	})
+	buff, err := h.encoder.Encode(e)
 
 	if err != nil {
 		return err
