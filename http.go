@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"net/http"
 
-	"github.com/eliothedeman/bangarang/src/github.com/eliothedeman/bangarang/event"
+	"github.com/eliothedeman/bangarang/event"
 )
 
 // A client for bangarang that connects to the server via http calls

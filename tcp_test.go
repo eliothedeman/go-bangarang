@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/eliothedeman/bangarang/src/github.com/eliothedeman/bangarang/event"
+	"github.com/eliothedeman/bangarang/event"
 	"github.com/eliothedeman/newman"
 	"github.com/eliothedeman/randutil"
 )

@@ -3,7 +3,7 @@ package client
 import (
 	"net"
 
-	"github.com/eliothedeman/bangarang/src/github.com/eliothedeman/bangarang/event"
+	"github.com/eliothedeman/bangarang/event"
 	"github.com/eliothedeman/newman"
 )
 
